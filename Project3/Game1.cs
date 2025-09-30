@@ -9,6 +9,7 @@ namespace Project3
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private float nigga = 0f;
+        private float nigga1 = 0f;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
