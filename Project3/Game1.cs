@@ -9,6 +9,9 @@ namespace Project3
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+
+        private Texture2D _texture;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
