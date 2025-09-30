@@ -4,11 +4,13 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Project3
 {
+    
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        private int speed = 1;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
